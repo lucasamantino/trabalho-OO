@@ -1,7 +1,6 @@
 import pygame
 from typing import overload, Union
 
-
 class Item:
     @overload
     def __init__(self, x: int, y: int, type: int):
